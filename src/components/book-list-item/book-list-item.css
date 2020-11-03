@@ -1,0 +1,37 @@
+.book-list-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;    
+    margin: 5px;
+  }
+  .book-list-item .book-cover {
+    flex-shrink: 0;
+    width: 70px;
+  }
+  
+  .book-list-item .book-cover img {
+    max-width: 100%;
+  }
+  
+  .book-list-item .book-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5px;
+  }
+  
+  .book-list-item .book-details .book-title {
+    font-size: 1.2rem;
+    
+  }
+  .book-list-item .book-details .book-author {
+    font-size: 1.2rem;
+    color: purple;
+  }
+
+  
+  .book-list-item .book-details .book-genre {
+    color: blue;
+    font-size: 0.8rem;
+  }
